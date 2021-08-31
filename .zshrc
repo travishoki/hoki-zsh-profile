@@ -5,3 +5,4 @@
 . ~/Sites/hoki-zsh-profile/nvm.zsh
 . ~/Sites/hoki-zsh-profile/programs.zsh
 . ~/Sites/hoki-zsh-profile/prompt.zsh
+. ~/Sites/hoki-zsh-profile/work.zsh
