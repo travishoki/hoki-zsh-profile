@@ -1,15 +1,22 @@
 function hokiwork() {
-	echo '-- Work --'
+	# Title
+	echoGreen '-- Lets Get to Work! --'
 
-	echo 'Got to dir'
+	# Got to Directory
 	cd ~/Sites
 
-	echo 'Open in VS Code'
+	#Open in VS Code'
 	code .
 
-	echo 'Open in Tower'
+	#Open in Tower'
 	gittower .
 
-	echo 'Open in Finder'
+	#Open in Finder'
 	open .
+
+	#Open Slack'
+	open -g -a Slack
+
+	#Open Chrome'
+	open -a "Google Chrome"
 }

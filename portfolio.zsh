@@ -1,21 +1,22 @@
 function hokiportfolio() {
-	echo '-- Portfolio --'
+	# Title
+	echoGreen '-- Hoki Portfolio --'
 
-	echo 'Got to dir'
+	# Got to Directory
 	cd ~/Sites/travishoki-react/
 
-	echo 'Open in VS Code'
+	# Open in VS Code
 	code .
 
-	echo 'Open in Tower'
+	# Open in Tower
 	gittower .
 
-	echo 'Open in Finder'
+	# Open in Finder
 	open .
 
-    echo 'Update Node Version'
+    # Update Node Version
 	nvm use
 
-	echo 'Launch App in Web'
+	# Launch App in Web
 	yarn start
 }
