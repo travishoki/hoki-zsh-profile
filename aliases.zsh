@@ -18,4 +18,10 @@ alias l='ls -AG1'
 alias ll='ls -lGhAsgo'
 
 #---------- Refresh Profile ----------#
-alias hokirefresh='source ~/.zshrc && echo "ZSH Profile Refreshed"'
+function hokirefresh() {
+	# Title
+	echoGreen '-- ZSH Profile Refresh --'
+
+	# Title
+    source ~/.zshrc
+}
