@@ -12,7 +12,6 @@ alias l='ls -AG1'
 # s: indicate file size in blocks
 # g: do not list owner
 # o: do not display owner
-
 alias ll='ls -lGhAsgo'
 
 #---------- Refresh Profile ----------#

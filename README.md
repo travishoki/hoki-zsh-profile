@@ -14,7 +14,15 @@ before
 `source ~/.zshrc`
 
 ### Aliases
+- `l` - List all
+- `ll` - List directories
 - `hokirefresh` - Refresh ZSH
-- `hokiwork` - Launch work applications
+
+### Aliases - Git
+- `gs` - Git Status
+
+### Aliases - Projects
+- `hokigame` - Open game repo
 - `hokiporfolio` - Open resume Repo
 - `hokiprofile` - Open ZSH repo
+- `hokiwork` - Launch work applications
