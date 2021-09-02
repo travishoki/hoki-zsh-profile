@@ -6,9 +6,17 @@ Clone repo into root:
 
 ### Link ZSH
 1. Open `~/.zshrc`
-2. Add
-`. ~/Sites/hoki-zsh-profile/.zshrc`
-before
+2. Add this block:
+```bash
+#----- Hoki Custom - Start -----#
+ZSH_DISABLE_COMPFIX="true" # Supress Error
+DISABLE_AUTO_TITLE="true" # Prevent ZSH from naming titles
+
+# Source Custom ZSH Profile
+. ~/Sites/hoki-zsh-profile/.zshrc
+#----- Hoki Custom - End -----#
+```
+before:
 `source $ZSH/oh-my-zsh.sh`
 3. Refresh ZSH
 `source ~/.zshrc`
