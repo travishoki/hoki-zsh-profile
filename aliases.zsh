@@ -1,5 +1,3 @@
-#========================================= Aliases =========================================#
-
 #---------- List (l) ----------#
 # A: list all entries, including names beginning with a period (.), he current directory (".") and parent directory ("..") are not listed
 # G: inhibit display of group information
@@ -22,6 +20,6 @@ function hokirefresh() {
 	# Title
 	echoGreen '-- ZSH Profile Refresh --'
 
-	# Title
+	# Source ZSH
     source ~/.zshrc
 }

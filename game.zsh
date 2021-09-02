@@ -1,3 +1,4 @@
+#---------- Launch Game ----------#
 function hokigame() {
 	echo '-- Hoki Game --'
 

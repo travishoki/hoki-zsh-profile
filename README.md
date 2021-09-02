@@ -16,5 +16,5 @@ before
 ### Aliases
 - `hokirefresh` - Refresh ZSH
 - `hokiwork` - Launch work applications
-- `hokiporfolio` - Open Resume Repo
-- `hokiprofile` - Open ZSH Repo
+- `hokiporfolio` - Open resume Repo
+- `hokiprofile` - Open ZSH repo

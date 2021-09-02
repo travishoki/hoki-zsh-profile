@@ -1,3 +1,4 @@
+#---------- Launch Portfolio ----------#
 function hokiportfolio() {
 	# Title
 	echoGreen '-- Hoki Portfolio --'

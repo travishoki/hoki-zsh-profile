@@ -1,3 +1,4 @@
+#---------- Launch ZSH Profile ----------#
 function hokiprofile() {
 	# Title
 	echoGreen '-- Hoki ZSH Profile --'
