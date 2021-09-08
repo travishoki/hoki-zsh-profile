@@ -1,6 +1,6 @@
 #---------- Launch Work Programs ----------#
 function hokiwork() {
-	# Title
+	# Title: Lets Get to Work!
 	echoGreen '-- Lets Get to Work! --'
 
 	# Got to Directory

@@ -1,6 +1,6 @@
 #---------- Launch ZSH Profile ----------#
 function hokiprofile() {
-	# Title
+	# Title: Hoki ZSH Profile
 	echoGreen '-- Hoki ZSH Profile --'
 
 	# Got to Directory

@@ -1,6 +1,6 @@
 #---------- Launch Portfolio ----------#
 function hokiportfolio() {
-	# Title
+	# Title: Hoki Portfolio
 	echoGreen '-- Hoki Portfolio --'
 
 	# Got to Directory
