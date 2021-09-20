@@ -3,21 +3,28 @@ function hokiwork() {
 	# Title: Lets Get to Work!
 	echoGreen '-- Lets Get to Work! --'
 
+	#----- Projects -----
+
 	# Got to Directory
 	cd ~/Sites
 
-	#Open in VS Code'
+	# Open in VS Code
 	code .
 
-	#Open in Tower'
+	# Open in Tower
 	gittower .
 
-	#Open in Finder'
+	# Open in Finder
 	open .
 
-	#Open Slack'
+	#----- Applications -----
+
+	# Open Slack
 	open -g -a Slack
 
-	#Open Chrome'
+	# Open Chrome
 	open -a "Google Chrome"
+
+	# Open Tandem
+	open -a "Tandem"
 }
