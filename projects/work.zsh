@@ -6,7 +6,7 @@ function hokiwork() {
 	#----- Projects -----
 
 	# Got to Directory
-	cd ~/Sites
+	cd ~/Sites/spiff_react
 
 	# Open in VS Code
 	code .
