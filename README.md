@@ -8,6 +8,7 @@ Clone repo into root:
 1. Open `~/.zshrc`
 2. Add this block:
 ```bash
+
 #----- Hoki Custom - Start -----#
 ZSH_DISABLE_COMPFIX="true" # Supress Error
 DISABLE_AUTO_TITLE="true" # Prevent ZSH from naming titles

@@ -1,6 +1,7 @@
 # Config
 . ~/Sites/hoki-zsh-profile/config/nvm.zsh
 . ~/Sites/hoki-zsh-profile/config/prompt.zsh
+. ~/Sites/hoki-zsh-profile/config/tabs.zsh
 
 # Aliases
 . ~/Sites/hoki-zsh-profile/aliases/aliases.zsh
