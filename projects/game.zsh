@@ -17,9 +17,6 @@ function hokigame() {
 
     # Update Node Version
 	nvm use
-
-	# Launch App in Web
-	yarn web
 }
 
 function hokigameweb() {
