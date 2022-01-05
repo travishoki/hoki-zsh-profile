@@ -21,3 +21,18 @@ function hokigame() {
 	# Launch App in Web
 	yarn web
 }
+
+function hokigameweb() {
+	hokigame()
+
+	# Launch App in Web
+	yarn web
+}
+
+
+function hokigameios() {
+	hokigame()
+
+	# Launch App in IOS
+	yarn ios
+}
