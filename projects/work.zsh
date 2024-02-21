@@ -14,9 +14,6 @@ function hokiwork() {
 	# Open in Tower
 	gittower .
 
-	# Open in Finder
-	open .
-
 	#----- Applications -----
 
 	# Open Slack
@@ -24,7 +21,4 @@ function hokiwork() {
 
 	# Open Chrome
 	open -a "Google Chrome"
-
-	# Open Tandem
-	open -a "Tandem"
 }
