@@ -1,10 +1,12 @@
 #---------- Launch Portfolio ----------#
 function hokiportfolio() {
-	# Title: Hoki Portfolio
-	echoGreen '-- Hoki Portfolio --'
+	# Title
+	title('-- Hoki Portfolio --')
 
 	# Got to Directory
 	cd ~/Sites/travishoki-react/
+
+	#----- Applications -----
 
 	# Open in VS Code
 	code .
@@ -14,6 +16,8 @@ function hokiportfolio() {
 
 	# Open in Finder
 	open .
+
+	#----- Environment -----
 
     # Update Node Version
 	nvm use

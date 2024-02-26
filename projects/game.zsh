@@ -1,10 +1,12 @@
 #---------- Launch Game ----------#
 function hokigameweb() {
-	# -- Hoki Game --
-	echoGreen '-- Hoki Games --'
+	# Title
+	echoTitle 'Hoki Games'
 
 	# Got to dir
 	cd ~/Sites/hoki-skateboards-react-native/
+
+	#----- Applications -----
 
 	# Open in VS Code
 	code .
@@ -14,6 +16,8 @@ function hokigameweb() {
 
 	# Open in Finder
 	open .
+
+	#----- Environment -----
 
     # Update Node Version
 	nvm use
@@ -24,11 +28,13 @@ function hokigameweb() {
 
 
 function hokigameios() {
-	# -- Hoki Game --
-	echoGreen '-- Hoki Games --'
+	# Title
+	echoTitle 'Hoki Games'
 
 	# Got to dir
 	cd ~/Sites/hoki-skateboards-react-native/
+
+	#----- Applications -----
 
 	# Open in VS Code
 	code .
@@ -38,6 +44,8 @@ function hokigameios() {
 
 	# Open in Finder
 	open .
+
+	#----- Environment -----
 
     # Update Node Version
 	nvm use
