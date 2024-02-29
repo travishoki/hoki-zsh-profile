@@ -26,7 +26,7 @@ function hokiwork() {
 #---------- SF Fetch & Generate ----------#
 function sfrefresh() {
 	# Title
-	echoTitle '-- Fetch & Generate --'
+	echoTitle 'Fetch & Generate'
 
 	#----- Projects -----
 
