@@ -52,7 +52,7 @@ function sfdev() {
 	#----- Command -----
 
 	# Run Dev Build
-	yarn dev:vite —env proxyType=production
+	yarn dev:vite —env proxyType=production PROXY_TYPE=production
 }
 
 #---------- Rebuild Node Modules ----------#
