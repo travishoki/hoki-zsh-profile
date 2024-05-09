@@ -70,18 +70,3 @@ function sfbounce() {
 	# Rebuild modules
 	rm -rf node_modules && yarn install
 }
-
-#---------- Add Gus Work ID ----------#
-function sfgus() {
-	# Title
-	echoTitle 'SF Gus'
-
-	if [ $# -eq 0 ]
-		then
-			echo "Work ID is required"
-			return
-	fi
-
-	git commit --allow-empty -m "@W-$1 fix compliance"
-}
-

@@ -14,3 +14,4 @@
 . ~/Sites/hoki-zsh-profile/projects/portfolio.zsh
 . ~/Sites/hoki-zsh-profile/projects/profile.zsh
 . ~/Sites/hoki-zsh-profile/projects/work.zsh
+. ~/Sites/hoki-zsh-profile/projects/work.local.zsh
