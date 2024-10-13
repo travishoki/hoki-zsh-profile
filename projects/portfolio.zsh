@@ -1,7 +1,7 @@
 #---------- Launch Portfolio ----------#
 function hokiportfolio() {
 	# Title
-	title('-- Hoki Portfolio --')
+	echoTitle "-- Hoki Portfolio --"
 
 	# Got to Directory
 	cd ~/Sites/travishoki-react/
