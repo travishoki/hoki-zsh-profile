@@ -17,7 +17,7 @@ alias ll='ls -lGhAsgo'
 #---------- Refresh Profile ----------#
 function hokirefresh() {
 	# Title
-	title 'ZSH Profile Refresh'
+	echoTitle 'ZSH Profile Refresh'
 
 	#----- Command -----
 
