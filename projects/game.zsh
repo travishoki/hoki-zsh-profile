@@ -1,6 +1,6 @@
 #---------- Launch Game ----------#
 
-function hokigamOpen() {
+function openhokigame() {
 	# Got to dir
 	cd ~/Sites/hoki-skateboards-react-native/
 
@@ -27,7 +27,7 @@ function hokigameweb() {
 	echoTitle 'Hoki Game Web'
 
 	# Open Game
-	hokigamOpen()
+	openhokigame()
 
 	# Launch App in Web
 	yarn web
@@ -39,7 +39,7 @@ function hokigameios() {
 	echoTitle 'Hoki Game IOS'
 
 	# Open Game
-	hokigamOpen()
+	openhokigame()
 
 	# Launch App in IOS
 	yarn ios
@@ -51,7 +51,7 @@ function hokigameandroid() {
 	echoTitle 'Hoki Game Android'
 
 	# Open Game
-	hokigamOpen()
+	openhokigame()
 
 	# Launch App in IOS
 	yarn ios
