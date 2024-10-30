@@ -25,3 +25,31 @@ function hokiportfolio() {
 	# Launch App in Web
 	yarn start
 }
+
+#---------- Launch Tattoo ----------#
+function hokitattoo() {
+	# Title
+	echoTitle "Hoki Tattoo"
+
+	# Got to Directory
+	cd ~/Sites/hoki-tattoo/
+
+	#----- Applications -----
+
+	# Open in VS Code
+	code .
+
+	# Open in Tower
+	gittower .
+
+	# Open in Finder
+	open .
+
+	#----- Environment -----
+
+    # Update Node Version
+	nvm use
+
+	# Launch App in Web
+	yarn start
+}
