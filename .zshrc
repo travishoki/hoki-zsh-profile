@@ -1,5 +1,6 @@
 # Config
-. ~/Sites/hoki-zsh-profile/config/nvm.zsh
+source ~/.nvm/nvm.sh
+# . ~/Sites/hoki-zsh-profile/config/nvm.zsh
 . ~/Sites/hoki-zsh-profile/config/prompt.zsh
 . ~/Sites/hoki-zsh-profile/config/tabs.zsh
 

@@ -1,11 +1,4 @@
-#---------- Launch Portfolio ----------#
-function hokiportfolio() {
-	# Title
-	echoTitle "Hoki Portfolio"
-
-	# Got to Directory
-	cd ~/Sites/travishoki-react/
-
+function hokiOpenDevTools {
 	#----- Applications -----
 
 	# Open in VS Code
@@ -26,6 +19,17 @@ function hokiportfolio() {
 	yarn start
 }
 
+#---------- Launch Portfolio ----------#
+function hokiportfolio() {
+	# Title
+	echoTitle "Hoki Portfolio"
+
+	# Got to Directory
+	cd ~/Sites/travishoki-react/
+
+	hokiOpenDevTools
+}
+
 #---------- Launch Tattoo ----------#
 function hokitattoo() {
 	# Title
@@ -34,22 +38,16 @@ function hokitattoo() {
 	# Got to Directory
 	cd ~/Sites/hoki-tattoo/
 
-	#----- Applications -----
+	hokiOpenDevTools
+}
 
-	# Open in VS Code
-	code .
+#---------- Launch Art ----------#
+function hokiart() {
+	# Title
+	echoTitle "Hoki Art"
 
-	# Open in Tower
-	gittower .
+	# Got to Directory
+	cd ~/Sites/hoki-art/
 
-	# Open in Finder
-	open .
-
-	#----- Environment -----
-
-    # Update Node Version
-	nvm use
-
-	# Launch App in Web
-	yarn start
+	hokiOpenDevTools
 }
