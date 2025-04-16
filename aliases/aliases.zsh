@@ -24,3 +24,7 @@ function hokirefresh() {
 	# Source ZSH
     source ~/.zshrc
 }
+
+#---------- Open Editor ----------#
+# Open Cursor App
+alias code='cursor'

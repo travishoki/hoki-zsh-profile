@@ -7,7 +7,7 @@ function openhokigame() {
 	#----- Applications -----
 
 	# Open in VS Code
-	code .
+	cursor .
 
 	# Open in Tower
 	gittower .
